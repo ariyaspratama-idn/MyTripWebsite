@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Video Wisata - My Holiday</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Trip - Video</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body class="video-page">
-  <video autoplay muted loop controls>
-    <source src="media/video.mp4" type="video/mp4">
-    Browser Anda tidak mendukung pemutar video.
+  <video autoplay loop muted playsinline class="video-bg">
+    <source src="media/video1.mp4" type="video/mp4" />
+    Browser kamu tidak mendukung video HTML5.
   </video>
+
+  <div class="video-overlay">
+    <h1>Selamat Menikmati Keindahan Alam Indonesia 🇮🇩</h1>
+    <button onclick="window.location.href='index.html'" class="back-btn">← Kembali</button>
+  </div>
 </body>
 </html>
